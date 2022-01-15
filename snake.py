@@ -2,12 +2,12 @@ import time
 import random
 from blessed import Terminal
 
-player = '\033[32m⚉ \033[0m'
-head = '\033[32m❂ \033[0m'
-fruit = ['⊞ ']#['🍒', '🍎', '🥝', '🍇', '🍉', '🍊', '🍋', '🍌', '🍍', '🥭', '🍐', '🍑', '🍓']
-star = '\033[93m✯ \033[0m'
+player = '🟢'
+head = '🐸'
+fruit = ['🍒', '🍎', '🥝', '🍇', '🍉', '🍊', '🍋', '🍌', '🍍', '🥭', '🍐', '🍑', '🍓']
+star = '⭐'
 starPos = [-1, -1]
-bad = '\033[31m⊠ \033[0m'
+bad = '🔪'
 badPos = [-1, -1]
 nF = 1
 plX = 9
@@ -41,13 +41,13 @@ def reset() :
     print('###########################################')
     print('#                 SNAKE                   #')
     print('###########################################')
-    print('#                By : Me                  #')
+    print('#             By : LAPCoder               #')
     print('###########################################')
     print('#            With : Python 3              #')
     print('###########################################')
     print('#             Press [ENTER]               #')
     print('###########################################')
-    print(f"{bcolors.RESET}")
+    print(f"{bcolors.RESET}" end="")
     input()
     clear()
 
@@ -145,7 +145,7 @@ while i < 20 :
     grTemp = []
     while j < 20 :
         j += 1
-        grTemp = grTemp + ['▩ ']
+        grTemp = grTemp + ['🟫']
 
     grille = grille + [grTemp + ['\n']]
     i += 1
@@ -220,7 +220,7 @@ while True :
         grTemp = []
         while j < 20 :
             j += 1
-            grTemp = grTemp + ['▩ ']
+            grTemp = grTemp + ['🟫']
 
         grille = grille + [grTemp + ['\n']]
         i += 1
