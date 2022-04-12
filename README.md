@@ -1,10 +1,10 @@
 # Snake
-It's the classic snake in Python.
+It's a snake game in Python.
 
 - Move with WASD / ZQSD
-- Go on 🍒, 🍎, 🥝, 🍇, 🍉, 🍊, 🍋, 🍌, 🍍, 🥭, 🍐, 🍑, 🍓
-- Don't go on 🔪
-- ⭐ is the best
+- Go on 🍒, 🍎, 🥝, 🍇, 🍉, 🍊, 🍋, 🍌, 🍍, 🥭, 🍐, 🍑, 🍓 (+1 point)
+- Don't go on 🔪 (-1 point)
+- ⭐ is the best (+10 points)
 
 # Bug
 Please report bugs
